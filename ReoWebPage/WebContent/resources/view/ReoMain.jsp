@@ -91,7 +91,7 @@
     			<img class="cardImage" src="${pageContext.request.contextPath}/resources/image/conversation.png" alt="Card image cap" height="100" width="100">
     			<div class="card-body">
       				<h4 class="card-title">자주 묻는 질문</h4>
-      				<p class="card-text">지원 전 아르바이트에 관한 질문사항을 확인하세요!</p>
+      				<p class="card-text">지원 전 아르바이트에 관한 질문사항을 확인하세요!!!</p>
       				<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     			</div>
   			</div>
