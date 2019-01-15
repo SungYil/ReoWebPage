@@ -15,6 +15,20 @@
 <body>
 	<jsp:include page="Header.jsp"/>
 	
+	<div id="contents">
+		<div id="nav">
+			<h4>고객센터</h4>
+			<div class="list-group">
+  				<a href="#" class="list-group-item list-group-item-action">공지사항</a>
+  				<a href="#" class="list-group-item list-group-item-action">Q n A</a>
+  				<a href="#" class="list-group-item list-group-item-action">다운로드</a>
+  				<a href="#" class="list-group-item list-group-item-action">제휴문의</a>
+			</div>
+		</div>
+		<div id="section">
+		
+		</div>
+	</div>
 	
 	<footer>
 		<jsp:include page="Footer.jsp"/>
