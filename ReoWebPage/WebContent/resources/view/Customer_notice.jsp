@@ -26,12 +26,123 @@
 			</div>
 		</div>
 		<div id="section">
-		
+			<h3>공지사항</h3>
+			<table class="table">
+  				<thead class="thead-dark">
+    				<tr>
+      					<th scope="col">번호</th>
+     					<th scope="col">제목</th>
+      					<th scope="col">작성자</th>
+      					<th scope="col">등록일</th>
+      					<th scope="col">조회수</th>
+    				</tr>
+  				</thead>
+  				<!-- tbody 내용에서부터는 서버를 통해서 내용을 받아서 출력 해야한ㄷ ㅏ. -->
+  				<tbody>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				<tr>
+      					<th scope="row">1000</th>
+      					<td>Mark</td>
+      					<td>Otto</td>
+      					<td>@mdo</td>
+    				</tr>
+    				
+  				</tbody>
+			</table>
 		</div>
 	</div>
 	
-	<footer>
+	<Footer>
 		<jsp:include page="Footer.jsp"/>
-	</footer>
+	</Footer>
 </body>
 </html>

@@ -1,8 +1,13 @@
+
 body{
 	margin:0;
 	padding:0;
 	position:relative;
 	min-height:100%;
+}
+#contents{
+	position:relative;
+	display:inline-block;
 }
 #nav{
 	text-align:center;
@@ -10,4 +15,10 @@ body{
 	width:380px;
 	border:1px solid red;
 	margin:30px;	
+}
+#section{
+	float:left;
+	width:1200px;
+	margin:30px;
+	border:1px solid yellow;
 }
