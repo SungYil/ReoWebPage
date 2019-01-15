@@ -6,8 +6,10 @@ body{
 	min-height:100%;
 }
 #contents{
-	position:relative;
+	border:1px solid blue;
 	display:inline-block;
+	min-height:100%;
+	width:100%;
 }
 #nav{
 	text-align:center;
