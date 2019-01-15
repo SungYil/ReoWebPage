@@ -5,3 +5,22 @@ body{
 	position:relative;
 	min-height:100%;
 }
+#contents{
+	border:1px solid blue;
+	display:inline-block;
+	min-height:100%;
+	width:100%;
+}
+#nav{
+	text-align:center;
+	float:left;
+	width:380px;
+	border:1px solid red;
+	margin:30px;	
+}
+#section{
+	float:left;
+	width:1200px;
+	margin:30px;
+	border:1px solid yellow;
+}

@@ -99,8 +99,8 @@
 		</div>
 	</div>
 	
-	<footer>
+	<Footer>
 		<jsp:include page="Footer.jsp"/>
-	</footer>
+	</Footer>
 </body>
 </html>
