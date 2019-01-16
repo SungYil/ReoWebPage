@@ -14,13 +14,13 @@ body{
 #nav{
 	text-align:center;
 	float:left;
-	width:380px;
+	width:20%;
 	border:1px solid red;
 	margin:30px;	
 }
 #section{
 	float:left;
-	width:1200px;
+	width:70%;
 	margin:30px;
 	border:1px solid yellow;
 }
