@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,48 +8,55 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/workManager.css">
+
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 </head>
 <body>
 	<jsp:include page="Header.jsp"></jsp:include>
-	<div class="container justify-content-center mt-4">
-		<div class="row">
-			<div class="col-sm-2">
-				<div class="list-group ">
-				  <a href="#" class="list-group-item">Á¦ÈÞ¹®ÀÇ °ü¸®</a>
-				  <a href="#" class="list-group-item">¾Æ¸£¹ÙÀÌÆ® Áö¿ø È®ÀÎ</a>
-				  <a href="#" class="list-group-item">È¸¿ø °ü¸®</a>
-				  <a href="#" class="list-group-item">±Ù¹«Áö °ü¸®</a>
-				</div>
+	<div id="contents">	
+		<div id="nav">
+			<div class="list-group">
+			  <a href="#" class="list-group-item">ì œíœ´ë¬¸ì˜ ê´€ë¦¬</a>
+			  <a href="#" class="list-group-item">ì•„ë¥´ë°”ì´íŠ¸ ì§€ì› í™•ì¸</a>
+			  <a href="#" class="list-group-item">íšŒì› ê´€ë¦¬</a>
+			  <a href="#" class="list-group-item">ê·¼ë¬´ì§€ ê´€ë¦¬</a>
+			</div>	
+		</div>	
+		<div id="section">
+			<div id="title">
+				<img class="title_img" alt="#" src="${pageContext.request.contextPath}/resources/image/test.jpg"/>
+				<h1>ê·¼ë¬´ì§€ ê´€ë¦¬</h1>
 			</div>
-			<div class="col-sm-7">
-				<div class="row">
-					<img alt="#" src="${pageContext.request.contextPath}/resources/image/test.jpg" width="50" height="50"/>
-					<h1>±Ù¹«Áö °ü¸®</h1>
-				</div>
-				<table class="table">
-				 <thead>
-				    <tr>
-				      <th scope="col">±Ù¹«Áö</th>
-				      <th scope="col">±Ù¹«À§Ä¡</th>
-				      <th scope="col">¸ðÁý³»¿ë</th>
-				      <th scope="col">½Ã±Þ</th>
-				    </tr>
-				  </thead>
-				  <tbody>
-				    <tr>
-				      <th scope="row">Áß¶û±¸</th>
-				      <td>ÇÐ±³</td>
-				      <td>³»ÀÏ</td>
-				      <td>5¸¸¿ø</td>
-				    </tr>
-				  </tbody>
-				</table>
-				
+			
+			<table class="table">
+			 <thead>
+			    <tr>
+			      <th scope="col">ê·¼ë¬´ì§€</th>
+			      <th scope="col">ê·¼ë¬´ìœ„ì¹˜</th>
+			      <th scope="col">ëª¨ì§‘ë‚´ìš©</th>
+			      <th scope="col">ì‹œê¸‰</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <th scope="row">ì¤‘ëž‘êµ¬</th>
+			      <td>í•™êµ</td>
+			      <td>ë‚´ì¼</td>
+			      <td>5ë§Œì›</td>
+			    </tr>
+			  </tbody>
+			</table>
+			<div class="bottom">
+				  <button type="button" class="btn btn-secondary mr-1">ê·¼ë¬´ì§€ ì¶”ê°€</button>
+				  <button type="button" class="btn btn-secondary">ê·¼ë¬´ì§€ ìˆ˜ì •</button>
+				  <button type="button" class="btn btn-secondary ml-1">ì‚­ì œ</button>
 			</div>
 		</div>
 	</div>
+	
 	<footer>
 		<jsp:include page="Footer.jsp"></jsp:include>
 	</footer>
