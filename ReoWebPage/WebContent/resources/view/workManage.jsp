@@ -9,6 +9,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/workManager.css">
+
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 </head>
@@ -18,10 +21,10 @@
 		<div id="nav">
 			
 				<div class="list-group ">
-				  <a href="#" class="list-group-item">제휴문의 관리</a>
-				  <a href="#" class="list-group-item">아르바이트 지원 확인</a>
-				  <a href="#" class="list-group-item">회원 관리</a>
-				  <a href="#" class="list-group-item">근무지 관리</a>
+				  <a href="#" class="list-group-item">占쏙옙占쌨뱄옙占쏙옙 占쏙옙占쏙옙</a>
+				  <a href="#" class="list-group-item">占싣몌옙占쏙옙占쏙옙트 占쏙옙占쏙옙 확占쏙옙</a>
+				  <a href="#" class="list-group-item">회占쏙옙 占쏙옙占쏙옙</a>
+				  <a href="#" class="list-group-item">占쌕뱄옙占쏙옙 占쏙옙占쏙옙</a>
 				</div>
 			
 		</div>
@@ -29,23 +32,23 @@
 			<div class="col-sm-7">
 				<div class="row">
 					<img alt="#" src="${pageContext.request.contextPath}/resources/image/test.jpg" width="50" height="50"/>
-					<h1>근무지 관리</h1>
+					<h1>占쌕뱄옙占쏙옙 占쏙옙占쏙옙</h1>
 				</div>
 				<table class="table">
 				 <thead>
 				    <tr>
-				      <th scope="col">근무지</th>
-				      <th scope="col">근무위치</th>
-				      <th scope="col">모집내용</th>
-				      <th scope="col">시급</th>
+				      <th scope="col">占쌕뱄옙占쏙옙</th>
+				      <th scope="col">占쌕뱄옙占쏙옙치</th>
+				      <th scope="col">占쏙옙占쏙옙占쏙옙占쏙옙</th>
+				      <th scope="col">占시깍옙</th>
 				    </tr>
 				  </thead>
 				  <tbody>
 				    <tr>
-				      <th scope="row">중랑구</th>
-				      <td>학교</td>
-				      <td>내일</td>
-				      <td>5만원</td>
+				      <th scope="row">占쌩띰옙占쏙옙</th>
+				      <td>占싻깍옙</td>
+				      <td>占쏙옙占쏙옙</td>
+				      <td>5占쏙옙占쏙옙</td>
 				    </tr>
 				  </tbody>
 				</table>

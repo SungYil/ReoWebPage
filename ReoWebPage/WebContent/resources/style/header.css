@@ -1,5 +1,6 @@
 @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
 body{
+	flex : 1;
 	margin:0px;
 }
 .menubar{
@@ -47,7 +48,7 @@ text-decoration:none;
 
 .menubar li ul{
 background: rgb(109,109,109);
-display:none; /* Æò»ó½Ã¿¡´Â µå¶ø¸Þ´º°¡ ¾Èº¸ÀÌ°Ô ÇÏ±â */
+display:none; /* ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ï¿½ï¿½ ï¿½Èºï¿½ï¿½Ì°ï¿½ ï¿½Ï±ï¿½ */
 height:auto;
 padding:0px;
 margin:0px;
@@ -60,7 +61,7 @@ z-index:200;
 }
 
 .menubar li:hover ul{
-display:block; /* ¸¶¿ì½º Ä¿¼­ ¿Ã¸®¸é µå¶ø¸Þ´º º¸ÀÌ°Ô ÇÏ±â */
+display:block; /* ï¿½ï¿½ï¿½ì½º Ä¿ï¿½ï¿½ ï¿½Ã¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ ï¿½ï¿½ï¿½Ì°ï¿½ ï¿½Ï±ï¿½ */
 }
 
 .menubar li li {
