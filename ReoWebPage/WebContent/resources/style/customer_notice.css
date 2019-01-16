@@ -1,0 +1,10 @@
+#section_top{
+	height:80%;
+}
+#button_group{
+	display:flex;
+	justify-content : flex-end;
+}
+.btn{
+	margin:5px;
+}

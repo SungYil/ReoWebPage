@@ -10,6 +10,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/customer_notice.css">
 <title>CustomerCenter_NoticeBoard</title>
 </head>
 <body>
@@ -26,6 +27,7 @@
 			</div>
 		</div>
 		<div id="section">
+			<div id="section_top">
 			<h3>공지사항</h3>
 			<table class="table">
   				<thead class="thead-dark">
@@ -49,7 +51,9 @@
     				
   				</tbody>
 			</table>
+			</div>
 			
+			<div id="section_bottom">
 			<nav aria-label="Page navigation example">
   				<ul class="pagination justify-content-center"">
     				<li class="page-item">
@@ -69,6 +73,12 @@
     				</li>
   				</ul>
 			</nav>
+			
+			<div id="button_group">
+				<button type="button" class="btn btn-dark">글쓰기</button>
+				<button type="button" class="btn btn-dark">Dark</button>
+			</div>
+			</div>
 		</div>
 	</div>
 	

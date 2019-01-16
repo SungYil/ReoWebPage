@@ -10,6 +10,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/customer_notice.css">
 <title>Customer_noticeWrite</title>
 </head>
 <body>
@@ -37,7 +38,9 @@
   				<div class="form-group row">
     				<label for="staticEmail" class="col-sm-2 col-form-label">첨부파일</label>
     				<div class="col-sm-10">
-     					<input type="file" name="notice_picture">
+     					<button type="button" class="btn btn-secondary">사진</button>
+						<button type="button" class="btn btn-secondary">동영상</button>
+						<button type="button" class="btn btn-secondary">지도</button>
     				</div>
   				</div>
   				<div class="form-group row">
@@ -45,6 +48,12 @@
     				<div class="col-sm-10">
       					<textarea class="form-control" id="notice_contents" rows="15"></textarea>	
       				</div>
+  				</div>
+  				
+  				<div id="button_group">
+  					<button type="submit" class="btn btn-dark">저장</button>
+  					<button type="submit" class="btn btn-dark">임시저장</button>
+  					<button type="submit" class="btn btn-dark">취소</button>
   				</div>
 			</form>
 		</div>
