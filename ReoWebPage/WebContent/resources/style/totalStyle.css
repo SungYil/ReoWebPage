@@ -21,4 +21,5 @@ body{
 	width:70%;
 	margin:30px;
 	border:1px solid yellow;
+	min-height:70vh;
 }

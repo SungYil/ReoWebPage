@@ -10,7 +10,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css">
-<title>CustomerCenter_NoticeBoard</title>
+<title>Customer_noticeWrite</title>
 </head>
 <body>
 	<jsp:include page="Header.jsp"/>
@@ -27,48 +27,26 @@
 		</div>
 		<div id="section">
 			<h3>공지사항</h3>
-			<table class="table">
-  				<thead class="thead-dark">
-    				<tr>
-      					<th scope="col">번호</th>
-     					<th scope="col">제목</th>
-      					<th scope="col">작성자</th>
-      					<th scope="col">등록일</th>
-      					<th scope="col">조회수</th>
-    				</tr>
-  				</thead>
-  				<!-- tbody 내용에서부터는 서버를 통해서 내용을 받아서 출력 해야한ㄷ ㅏ. -->
-  				<tbody>
-    				<tr>
-      					<th scope="row">1</th>
-      					<td>Mark</td>
-      					<td>Otto</td>
-      					<td>@mdo</td>
-    				</tr>
-    				
-    				
-  				</tbody>
-			</table>
-			
-			<nav aria-label="Page navigation example">
-  				<ul class="pagination justify-content-center"">
-    				<li class="page-item">
-      					<a class="page-link" href="#" aria-label="Previous">
-        					<span aria-hidden="true">&laquo;</span>
-        					<span class="sr-only">Previous</span>
-      					</a>
-    				</li>
-    				<li class="page-item"><a class="page-link" href="#">1</a></li>
-    				<li class="page-item"><a class="page-link" href="#">2</a></li>
-    				<li class="page-item"><a class="page-link" href="#">3</a></li>
-    				<li class="page-item">
-      					<a class="page-link" href="#" aria-label="Next">
-        					<span aria-hidden="true">&raquo;</span>
-        					<span class="sr-only">Next</span>
-      					</a>
-    				</li>
-  				</ul>
-			</nav>
+			<form>
+  				<div class="form-group row">
+    				<label for="staticEmail" class="col-sm-2 col-form-label">제목</label>
+    				<div class="col-sm-10">
+     					<input type="text" class="form-control" id="notice_title" placeholder="제목을 입력하세요">
+    				</div>
+  				</div>
+  				<div class="form-group row">
+    				<label for="staticEmail" class="col-sm-2 col-form-label">첨부파일</label>
+    				<div class="col-sm-10">
+     					<input type="file" name="notice_picture">
+    				</div>
+  				</div>
+  				<div class="form-group row">
+    				<label for="inputPassword" class="col-sm-2 col-form-label">내용</label>
+    				<div class="col-sm-10">
+      					<textarea class="form-control" id="notice_contents" rows="15"></textarea>	
+      				</div>
+  				</div>
+			</form>
 		</div>
 	</div>
 	
