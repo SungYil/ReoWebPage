@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="jumbotron">
-	<div class="row justify-content-center" >
+	<div class="row justify-content-center">
 	
   		<div style="margin-right:40px;"><img src="http://placehold.it/200x200"/></div>
   
