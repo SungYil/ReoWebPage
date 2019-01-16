@@ -48,7 +48,7 @@ text-decoration:none;
 
 .menubar li ul{
 background: rgb(109,109,109);
-display:none; /* ���ÿ��� ����޴��� �Ⱥ��̰� �ϱ� */
+display:none; /* 占쏙옙占시울옙占쏙옙 占쏙옙占쏙옙濱占쏙옙占� 占싫븝옙占싱곤옙 占싹깍옙 */
 height:auto;
 padding:0px;
 margin:0px;
@@ -61,7 +61,7 @@ z-index:200;
 }
 
 .menubar li:hover ul{
-display:block; /* ���콺 Ŀ�� �ø��� ����޴� ���̰� �ϱ� */
+display:block; /* 占쏙옙占쎌스 커占쏙옙 占시몌옙占쏙옙 占쏙옙占쏙옙濱占� 占쏙옙占싱곤옙 占싹깍옙 */
 }
 
 .menubar li li {
