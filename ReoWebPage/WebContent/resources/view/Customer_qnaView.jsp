@@ -34,7 +34,7 @@
   					<!-- 바디부 내용은 직접 서버에서 내려받아 채울것 -->
     				<tr>
       					<td width="130">제목 : </td>
-      					<td> empty message</td>
+      					<td> empty message!!</td>
      					<td width="130">조회수 : </td>
      					<td> empty </td>
     				</tr>
