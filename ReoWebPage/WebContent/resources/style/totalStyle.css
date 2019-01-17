@@ -1,21 +1,25 @@
-body{
-	display:flex;
-	flex-direction:column;
-	height:100vh;
-}
 #contents{
 	border:1px solid blue;
 	display:inline-block;
 	width:2000px;
 	height : 1000px;
 }
+
 #nav{
 	text-align:center;
 	float:left;
 	width:20%;
 	border:1px solid red;
-	margin:30px;	
+	margin:30px;
+	navClass : 
 }
+#navTitle{
+	font-size: 20px;
+}
+#navBody{
+	
+}
+
 #section{
 	float:left;
 	width:70%;
@@ -23,6 +27,23 @@ body{
 	border:1px solid yellow;
 	height : 90%;
 }
-footer{
-	height : 200px;
+#sectionHead{
+	/*섹션의 이미지와 제목만 들어간다. */
+	/*  이미지 설정(크기,높이) */
+	/*  제목의 글자 설정 */
+	display : flex;
+	/* 위치 지정하려면 당연히 flex */
+	justify-content : center;
+	height : 5%;
+}
+#sectionBody{
+	height : 90%;
+}
+#sectionChart{
+}
+#sectionFoot{
+	display: flex;
+	/* 위치 지정하려면 당연히 flex */
+	justify-content : flex-end;
+	height : 5%;
 }

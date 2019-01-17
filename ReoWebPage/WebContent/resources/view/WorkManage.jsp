@@ -20,6 +20,7 @@
 	<jsp:include page="Header.jsp"></jsp:include>
 	<div id="contents">	
 		<div id="nav">
+			<div id="navTitle">고객센터</div>
 			<div class="list-group">
 			  <a href="#" class="list-group-item">제휴문의 관리</a>
 			  <a href="#" class="list-group-item">아르바이트 지원 확인</a>
@@ -29,30 +30,31 @@
 			</div>	
 		</div>	
 		<div id="section">
-			<div id="title">
+			<div id="sectionHead">
 				<img class="title_img" alt="#" src="${pageContext.request.contextPath}/resources/image/test.jpg"/>
 				<h1>근무지 관리</h1>
 			</div>
-			
-			<table class="table">
-			 <thead>
-			    <tr>
-			      <th scope="col">근무지</th>
-			      <th scope="col">근무위치</th>
-			      <th scope="col">모집내용</th>
-			      <th scope="col">시급</th>
-			    </tr>
-			  </thead>
-			  <tbody>
-			    <tr>
-			      <th scope="row">중랑구</th>
-			      <td>학교</td>
-			      <td>내일</td>
-			      <td>5만원</td>
-			    </tr>
-			  </tbody>
-			</table>
-			<div class="bottom">
+			<div id="sectionBody">
+				<table id="sectionChart" class="table">
+				 <thead>
+				    <tr>
+				      <th scope="col">근무지</th>
+				      <th scope="col">근무위치</th>
+				      <th scope="col">모집내용</th>
+				      <th scope="col">시급</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th scope="row">중랑구</th>
+				      <td>학교</td>
+				      <td>내일</td>
+				      <td>5만원</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+			<div class="sectionFoot">
 				  <button type="button" class="btn btn-secondary mr-1">목록으로</button>
 				  <button type="button" class="btn btn-secondary">확인</button>
 				  <button type="button" class="btn btn-secondary ml-1">수정</button>
