@@ -11,32 +11,31 @@
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/customer_notice.css">
-<title>Customer_noticeWrite</title>
+<title>PartTime_parttimeWrite Page</title>
 </head>
 <body>
 	<jsp:include page="Header.jsp"/>
 	
 	<div id="contents">
 		<div id="nav">
-			<div id="navTitle">고객센터</div>
+			<div id="navTitle">아르바이트</div>
 			<div class="list-group">
-  				<a href="#" class="list-group-item list-group-item-action">공지사항</a>
-  				<a href="#" class="list-group-item list-group-item-action">Q n A</a>
-  				<a href="#" class="list-group-item list-group-item-action">다운로드</a>
-  				<a href="#" class="list-group-item list-group-item-action">제휴문의</a>
+  				<a href="#" class="list-group-item list-group-item-action">장기 아르바이트</a>
+  				<a href="#" class="list-group-item list-group-item-action">단기 아르바이트</a>
 			</div>
 		</div>
+		
 		<div id="section">
 			<div id="sectionHead">
-				<h3>공지사항</h3>
+				<h3>아르바이트</h3>
 			</div>
 			
 			<div id="sectionBody">
 			<form>
   				<div class="form-group row">
-    				<label for="staticEmail" class="col-sm-2 col-form-label">제목</label>
+    				<label for="partTimeTitle" class="col-sm-2 col-form-label">제목</label>
     				<div class="col-sm-10">
-     					<input type="text" class="form-control" id="notice_title" placeholder="제목을 입력하세요">
+     					<input type="text" class="form-control" id="partTime_title" placeholder="제목을 입력하세요">
     				</div>
   				</div>
   				<div class="form-group row">
@@ -48,9 +47,38 @@
     				</div>
   				</div>
   				<div class="form-group row">
-    				<label for="inputCustomer" class="col-sm-2 col-form-label">내용</label>
+    				<label for="partTimePay" class="col-sm-2 col-form-label">시급</label>
+    				<div class="col-sm-5">
+     					<input type="text" class="form-control" id="partTime_pay" placeholder="시급을 입력하세요">
+    				</div>
+  				</div>
+  				<div class="form-group row">
+    				<label for="partTimeTime" class="col-sm-2 col-form-label">근무시간</label>
+    				<div class="col-sm-2">
+     					<input type="text" class="form-control" id="partTime_start" placeholder="시작시간을 입력하세요">
+    				</div>
+    				-
+    				<div class="col-sm-2">
+     					<input type="text" class="form-control" id="partTime_end" placeholder="종료시간을 입력하세요">
+    				</div>
+  				</div>
+  				<div class="form-group row">
+    				<label for="partTimePerson" class="col-sm-2 col-form-label">근무인원</label>
+    				<div class="col-sm-5">
+     					<input type="text" class="form-control" id="partTime_person" placeholder="근무인원을 입력하세요">
+    				</div>
+  				</div>
+  				<div class="form-group row">
+    				<label for="partTimeLocation" class="col-sm-2 col-form-label">근무위치</label>
+    				<div class="col-sm-5">
+     					<input type="text" class="form-control" id="partTime_location" placeholder="근무위치를 입력하세요">
+    				</div>
+  				</div>
+  				
+  				<div class="form-group row">
+    				<label for="partTimeContents" class="col-sm-2 col-form-label">내용</label>
     				<div class="col-sm-10">
-      					<textarea class="form-control" id="input_customer" rows="15"></textarea>	
+      					<textarea class="form-control" id="partTime_contents" rows="15"></textarea>	
       				</div>
   				</div>
   				
@@ -66,7 +94,10 @@
 			
   			
 		</div>
+	
 	</div>
+	
+	
 	
 	<Footer>
 		<jsp:include page="Footer.jsp"/>
