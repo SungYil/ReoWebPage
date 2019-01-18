@@ -28,7 +28,7 @@
 		</div>
 		<div id="section">
 			<div id="sectionHead">
-			<h3>공지사항</h3>
+				<h3>공지사항</h3>
 			</div>
 			<div id="sectionBody">
 			<table class="table">

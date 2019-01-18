@@ -18,7 +18,7 @@
 	
 	<div id="contents">
 		<div id="nav">
-			<h4>고객센터</h4>
+			<div id="navTitle">고객센터</div>
 			<div class="list-group">
   				<a href="#" class="list-group-item list-group-item-action">공지사항</a>
   				<a href="#" class="list-group-item list-group-item-action">Q n A</a>
@@ -27,7 +27,11 @@
 			</div>
 		</div>
 		<div id="section">
-			<h3>공지사항</h3>
+			<div id="sectionHead">
+				<h3>공지사항</h3>
+			</div>
+			
+			<div id="sectionBody">
 			<form>
   				<div class="form-group row">
     				<label for="staticEmail" class="col-sm-2 col-form-label">제목</label>
@@ -50,12 +54,17 @@
       				</div>
   				</div>
   				
+  				
   				<div id="button_group">
   					<button type="submit" class="btn btn-dark">저장</button>
   					<button type="submit" class="btn btn-dark">임시저장</button>
   					<button type="submit" class="btn btn-dark">취소</button>
   				</div>
 			</form>
+			</div>
+			
+			
+  			
 		</div>
 	</div>
 	

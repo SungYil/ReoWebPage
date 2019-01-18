@@ -18,7 +18,7 @@
 	
 	<div id="contents">
 		<div id="nav">
-			<h4>고객센터</h4>
+			<div id="navTitle">고객센터</div>
 			<div class="list-group">
   				<a href="#" class="list-group-item list-group-item-action">공지사항</a>
   				<a href="#" class="list-group-item list-group-item-action">Q n A</a>
@@ -27,8 +27,12 @@
 			</div>
 		</div>
 		<div id="section">
-			<div id="section_top" style="background-color: lightgray;">
-			<h3>Q n A</h3>
+			
+			<div id="sectionHead">
+				<h3>공지사항</h3>
+			</div>
+			
+			<div id="sectionBody" style="background-color: lightgray;">
 			<table class="table">
   				<tbody>
   					<!-- 바디부 내용은 직접 서버에서 내려받아 채울것 -->
@@ -56,7 +60,7 @@
 			</table>
 			</div>
 			
-			<div id="section_bottom">
+			<div class="sectionFoot">
 			
 			<div id="button_group">
 				<button type="button" class="btn btn-dark">글쓰기</button>
