@@ -10,35 +10,40 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css">
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/customer_notice.css">
-<title>CustomerCenter_NoticeBoard</title>
+<title>MyPage workingHistory</title>
 </head>
 <body>
 	<jsp:include page="Header.jsp"/>
 	
 	<div id="contents">
 		<div id="nav">
-			<div id="navTitle">고객센터</div>
+			<div id="navTitle">마이페이지</div>
 			<div class="list-group">
-  				<a href="#" class="list-group-item list-group-item-action">공지사항</a>
-  				<a href="#" class="list-group-item list-group-item-action">Q n A</a>
-  				<a href="#" class="list-group-item list-group-item-action">다운로드</a>
-  				<a href="#" class="list-group-item list-group-item-action">제휴문의</a>
+  				<a href="#" class="list-group-item list-group-item-action">회원정보 수정</a>
+  				<a href="#" class="list-group-item list-group-item-action">비밀번호 수정</a>
+  				<a href="#" class="list-group-item list-group-item-action">근무내역</a>
+  				<a href="#" class="list-group-item list-group-item-action">지원 확인</a>
+  				<a href="#" class="list-group-item list-group-item-action">회원 탈퇴</a>
 			</div>
 		</div>
+		
 		<div id="section">
+			<!-- 단기와 장기는 서버로부터 데이터를 받아와서 해결할 것 -->
 			<div id="sectionHead">
-				<h3>공지사항</h3>
+				<h3>근무 내역</h3>
 			</div>
+			
 			<div id="sectionBody">
 			<table class="table">
   				<thead class="thead-dark">
     				<tr>
-      					<th scope="col">번호</th>
-     					<th scope="col">제목</th>
-      					<th scope="col">작성자</th>
-      					<th scope="col">등록일</th>
-      					<th scope="col">조회수</th>
+      					<th scope="col">근무일자</th>
+     					<th scope="col">근무지</th>
+      					<th scope="col">모집내용</th>
+      					<th scope="col">근무시간</th>
+      					<th scope="col">성별</th>
+      					<th scope="col">시급</th>
+      					<th scope="col">알바비 지급 여부</th>
     				</tr>
   				</thead>
   				<!-- tbody 내용에서부터는 서버를 통해서 내용을 받아서 출력 해야한ㄷ ㅏ. -->
@@ -76,13 +81,12 @@
   				</ul>
 			</nav>
 			
-			<div id="button_group">
-				<button type="button" class="btn btn-dark">글쓰기</button>
-				<button type="button" class="btn btn-dark">Dark</button>
-			</div>
 			</div>
 		</div>
+	
 	</div>
+	
+	
 	
 	<Footer>
 		<jsp:include page="Footer.jsp"/>
