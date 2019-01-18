@@ -59,7 +59,7 @@
 			</table>
 			</div>
 			
-			<div id="sectionFoot">
+			
 			<nav aria-label="Page navigation example">
   				<ul class="pagination justify-content-center"">
     				<li class="page-item">
@@ -80,6 +80,7 @@
   				</ul>
 			</nav>
 			
+			<div id="sectionFoot">
 			<div id="button_group">
 				<button type="button" class="btn btn-dark">선택 지원 취소</button>
 			</div>

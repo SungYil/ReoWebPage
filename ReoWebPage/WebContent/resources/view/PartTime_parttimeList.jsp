@@ -60,7 +60,6 @@
 			</table>
 			</div>
 			
-			<div class="sectionFoot">
 			<nav aria-label="Page navigation example">
   				<ul class="pagination justify-content-center"">
     				<li class="page-item">
@@ -81,6 +80,8 @@
   				</ul>
 			</nav>
 			
+			<div id="sectionFoot">
+		
 			<!-- 등록과 삭제 버튼은 관리자 아이디로 로그인했을 경우에만 나타나도록 한다 -->
 			<div id="button_group">
 				<button type="button" class="btn btn-dark">등록</button>

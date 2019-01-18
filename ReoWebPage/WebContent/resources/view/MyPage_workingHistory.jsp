@@ -60,7 +60,7 @@
 			</table>
 			</div>
 			
-			<div id="sectionFoot">
+			
 			<nav aria-label="Page navigation example">
   				<ul class="pagination justify-content-center"">
     				<li class="page-item">
@@ -81,7 +81,7 @@
   				</ul>
 			</nav>
 			
-			</div>
+			
 		</div>
 	
 	</div>

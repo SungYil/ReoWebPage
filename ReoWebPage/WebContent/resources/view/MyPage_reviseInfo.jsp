@@ -11,6 +11,7 @@
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/myPage_reviseInfo.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/button_group.css">
 
 <title>MyPage_reviseInfo Page</title>
 </head>

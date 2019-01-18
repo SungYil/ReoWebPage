@@ -10,7 +10,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css">
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/customer_notice.css">
 <title>CustomerCenter_NoticeBoard</title>
 </head>
 <body>
@@ -55,7 +54,6 @@
 			</table>
 			</div>
 			
-			<div id="sectionFoot">
 			<nav aria-label="Page navigation example">
   				<ul class="pagination justify-content-center"">
     				<li class="page-item">
@@ -75,6 +73,8 @@
     				</li>
   				</ul>
 			</nav>
+			
+			<div id="sectionFoot">
 			
 			<div id="button_group">
 				<button type="button" class="btn btn-dark">글쓰기</button>
