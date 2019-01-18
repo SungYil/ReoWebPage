@@ -18,7 +18,7 @@
 	
 	<div id="contents">
 		<div id="nav">
-			<h4>고객센터</h4>
+			<div id="navTitle">고객센터</div>
 			<div class="list-group">
   				<a href="#" class="list-group-item list-group-item-action">공지사항</a>
   				<a href="#" class="list-group-item list-group-item-action">Q n A</a>
@@ -27,8 +27,10 @@
 			</div>
 		</div>
 		<div id="section">
-			<div id="section_top">
+			<div id="sectionHead">
 			<h3>공지사항</h3>
+			</div>
+			<div id="sectionBody">
 			<table class="table">
   				<thead class="thead-dark">
     				<tr>
@@ -53,7 +55,7 @@
 			</table>
 			</div>
 			
-			<div id="section_bottom">
+			<div class="sectionFoot">
 			<nav aria-label="Page navigation example">
   				<ul class="pagination justify-content-center"">
     				<li class="page-item">
