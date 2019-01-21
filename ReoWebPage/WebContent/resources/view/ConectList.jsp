@@ -10,8 +10,9 @@
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css?ver=1">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/button_group.css?ver=1">
+
 <meta charset="UTF-8">
-<title>제휴업체 정보 페이지</title>
+<title>제휴문의</title>
 </head>
 <body>
 	<jsp:include page="Header.jsp"></jsp:include>
@@ -28,46 +29,42 @@
 		</div>	
 		<div id="section">
 			<div id="sectionHead">
-				<img class="title_img" alt="#" src="${pageContext.request.contextPath}/resources/image/test.jpg"/>
-				<h1>제휴업체 정보</h1>
+				<img id="sectionTitleImg" alt="#" src="${pageContext.request.contextPath}/resources/image/test.jpg"/>
+				제휴문의 내역
 			</div>
 			<div id="sectionBody">
 				<table class="table">
-					<tr>
-						<td width="100">회사명</td>
-						<td>아무게</td>
-					</tr>
-					<tr>
-						<td>담당자</td>
-						<td>이은호</td>
-					</tr>
-					<tr>
-						<td>연락처</td>
-						<td>010-5653-5443</td>
-					</tr>
-					<tr>
-						<td>연락시간</td>
-						<td>010-5653-5443</td>
-					</tr>
-					<tr>
-						<td>이메일</td>
-						<td>010-5653-5443</td>
-					</tr>
-					<tr>
-						<td>내용</td>
-						<td rowspan="4">내용</td>
-					</tr>
+				 <thead>
+				    <tr>
+				      <th scope="col">회사명</th>
+				      <th scope="col">담당자</th>
+				      <th scope="col">연락처</th>
+				      <th scope="col">연락시간</th>
+				      <th scope="col">이메일</th>
+				      <th><label for="allCheck">전체선택</label><input type="checkbox" id="allCheck"></th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th scope="row">중랑구</th>
+				      <td>학교</td>
+				      <td>내일</td>
+				      <td>5만원</td>
+				      <td>임시</td>
+				      <td><input type="checkbox" class="childbox" name="n"></td>
+				    </tr>
+				  </tbody>
 				</table>
 			</div>
 			<div id="sectionFoot">
 				<div id="button_group">
-				  <button type="button" class="btn btn-secondary">확인</button>
-				  <button type="button" class="btn btn-secondary">수정</button>
+					<button type="button" class="btn btn-secondary">확인</button>
+					<button type="button" class="btn btn-secondary">삭제</button>
 				</div>
 			</div>
 		</div>
 	</div>
-
+	
 	<footer>
 		<jsp:include page="Footer.jsp"></jsp:include>
 	</footer>

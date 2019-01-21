@@ -10,8 +10,10 @@
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css?ver=1">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/button_group.css?ver=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <meta charset="UTF-8">
-<title>제휴업체 정보 페이지</title>
+<title>회원정보 상세보기</title>
 </head>
 <body>
 	<jsp:include page="Header.jsp"></jsp:include>
@@ -20,6 +22,10 @@
 			<div id="navTitle">관리</div>
 			<div class="list-group">
 			  <a href="#" class="list-group-item">제휴문의 관리</a>
+			  <div class="list-group hide">
+			  	<a href="#" class="list-group-item">제휴업체 목록</a>
+			  	<a href="#" class="list-group-item">제휴문의 내역</a>
+			  </div>
 			  <a href="#" class="list-group-item">아르바이트 지원 확인</a>
 			  <a href="#" class="list-group-item">회원 관리</a>
 			  <a href="#" class="list-group-item">근무지 관리</a>
@@ -28,48 +34,60 @@
 		</div>	
 		<div id="section">
 			<div id="sectionHead">
-				<img class="title_img" alt="#" src="${pageContext.request.contextPath}/resources/image/test.jpg"/>
-				<h1>제휴업체 정보</h1>
+				<img alt="#" src="${pageContext.request.contextPath}/resources/image/test.jpg"/>
+				회원정보 상세보기
 			</div>
 			<div id="sectionBody">
 				<table class="table">
-					<tr>
-						<td width="100">회사명</td>
-						<td>아무게</td>
-					</tr>
-					<tr>
-						<td>담당자</td>
-						<td>이은호</td>
-					</tr>
-					<tr>
-						<td>연락처</td>
-						<td>010-5653-5443</td>
-					</tr>
-					<tr>
-						<td>연락시간</td>
-						<td>010-5653-5443</td>
-					</tr>
-					<tr>
-						<td>이메일</td>
-						<td>010-5653-5443</td>
-					</tr>
-					<tr>
-						<td>내용</td>
-						<td rowspan="4">내용</td>
-					</tr>
+				  <tbody>
+				    <tr>
+				      <td width="130">성명</td>
+				      <td>아무개</td>
+				    </tr>
+				    <tr>
+				      <td>생년월일</td>
+				      <td>1994년 4월 30일</td>
+				    </tr>
+				    <tr>
+				    	<td>성별</td>
+				    	<td>남자</td>
+				    </tr>
+				    <tr>
+				    	<td>우편번호</td>
+				    	<td>앞주소 - 뒷주소</td>
+				    </tr>
+				    <tr>
+				    	<td>상세주소</td>
+				    	<td>중랑구 어딘가</td>
+				    </tr><tr>
+				    	<td>휴대폰 번호</td>
+				    	<td>xxx-xxxx-xxxx</td>
+				    </tr>
+				    <tr>
+				    	<td>은행명</td>
+				    	<td>계좌번호</td>
+				    </tr>
+				    <tr>
+				    	<td>이메일</td>
+				    	<td>이메일@naver.com</td>
+				    </tr>
+				    <tr>
+				    	<td>계좌번호</td>
+				    	<td>xxx-xxxxx-xxxxx</td>
+				    </tr>
+				    <tr>
+				    	<td>사진</td>
+				    	<td rowspan="3">사진</td>
+				    </tr>
+				  </tbody>
 				</table>
 			</div>
-			<div id="sectionFoot">
-				<div id="button_group">
-				  <button type="button" class="btn btn-secondary">확인</button>
-				  <button type="button" class="btn btn-secondary">수정</button>
-				</div>
+			<div class="sectionFoot">	
+				<button type="button" class="btn btn-secondary">확인</button>
 			</div>
 		</div>
 	</div>
-
 	<footer>
 		<jsp:include page="Footer.jsp"></jsp:include>
 	</footer>
 </body>
-</html>

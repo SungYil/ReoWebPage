@@ -1,0 +1,22 @@
+@charset "UTF-8";
+#contents{
+	display : flex;
+	/* 위치 지정하려면 당연히 flex */
+	justify-content : center;
+}
+#loginForm{
+	display : flex;
+	/* 위치 지정하려면 당연히 flex */
+	justify-content : center;
+	background-color: gray;
+	margin : 30px;
+	width : 760px;
+	height : 200px;
+}
+#inputForm{
+	width : 500px;
+}
+label{
+	font-weight : bolder;
+	width : 100px;
+}

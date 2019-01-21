@@ -11,7 +11,7 @@
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css?ver=1">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/button_group.css?ver=1">
 <meta charset="UTF-8">
-<title>제휴업체 정보 페이지</title>
+<title>제휴문의 정보 페이지</title>
 </head>
 <body>
 	<jsp:include page="Header.jsp"></jsp:include>
@@ -29,7 +29,7 @@
 		<div id="section">
 			<div id="sectionHead">
 				<img class="title_img" alt="#" src="${pageContext.request.contextPath}/resources/image/test.jpg"/>
-				<h1>제휴업체 정보</h1>
+				<h1>제휴문의 정보</h1>
 			</div>
 			<div id="sectionBody">
 				<table class="table">
@@ -62,7 +62,6 @@
 			<div id="sectionFoot">
 				<div id="button_group">
 				  <button type="button" class="btn btn-secondary">확인</button>
-				  <button type="button" class="btn btn-secondary">수정</button>
 				</div>
 			</div>
 		</div>
