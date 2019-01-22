@@ -33,7 +33,8 @@
 				<h3>비밀번호 수정</h3>
 			</div>
 			
-			<div id="sectionBody">
+			<div id="sectionBody" class="container">
+			<div class="col align-self-center" style="margin-top:30px;"></div>
 			<form>
   				<div class="form-group row">
     				<label for="currentPassword" class="col-sm-2 col-form-label">현재 비밀번호</label>
