@@ -28,7 +28,7 @@
 		</div>
 		<div id="section">
 			<div id="sectionHead">
-				<h3>공지사항</h3>
+				<h3>제휴문의</h3>
 			</div>
 			
 			<div id="sectionBody">

@@ -31,16 +31,17 @@
 			<li><a href="#">내 정보</a></li>
 			<li><a href="#">관리</a>
 				<ul>
+					<li><a href="#">제휴문의 관리</a></li>
 					<li><a href="#">회원 관리</a></li>
+					<li><a href="#">관리자 정보 관리</a></li>
 					<li><a href="#">아르바이트 관리</a></li>
-					<li><a href="#">협력업체 관리</a></li>
 				</ul>
 			</li>
 			<li><a href="#">로그인</a></li>
 		</ul>
 	</div>
 	
-	<script charset="utf-8" type="text/javascript" src="../script/HeaderMenu.js"></script>
+	<script charset="utf-8" type="text/javascript" src="${pageContext.request.contextPath}/resources/script/HeaderMenu.js?ver=1"></script>
 	
 </body>
 </html>

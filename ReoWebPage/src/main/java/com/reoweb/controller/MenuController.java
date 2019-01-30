@@ -9,7 +9,7 @@ public class MenuController {
 
 	@RequestMapping("/movePage")
 	public String movePage(@RequestParam(value="page")String page){
-		String moving="main";
+		String moving="ReoMain";
 		System.out.println("movePage 컨트롤러로 넘어온 value값 : "+page);
 		
 		if("회사 소개".equals(page)){
@@ -33,12 +33,30 @@ public class MenuController {
 			moving="Customer_contact";
 		}else if("내 정보".equals(page)){
 			moving="MyPage_reviseInfo";
+		}else if("회원정보 수정".equals(page)){
+			moving="MyPage_reviseInfo";
+		}else if("비밀번호 수정".equals(page)){
+			moving="MyPage_revisePassword";
+		}else if("근무내역".equals(page)){
+			moving="MyPage_workingHistory";
+		}else if("지원 확인".equals(page)){
+			moving="MyPage_verifySupport";
 		}else if("관리".equals(page)){
+			moving="AllianceCompanyManage";
+		}else if("제휴문의 관리".equals(page)){
+			moving="AllianceCompanyManage";
+		}else if("제휴업체 목록".equals(page)){
 			moving="AllianceCompnayList";
+		}else if("제휴문의 내역".equals(page)){
+			moving="ConectList";
 		}else if("회원 관리".equals(page)){
 			moving="UserInfoManage";
+		}else if("회원관리".equals(page)){
+			moving="UserInfoManage";
+		}else if("관리자 정보 관리".equals(page)){
+			moving="ManagerInfoManage";
 		}else if("아르바이트 관리".equals(page)){
-			moving="parttimejopManage";
+			moving="ParttimejopManage";
 		}else if("협력업체 관리".equals(page)){
 			moving="AllianceCompanyList";
 		}else if("로그인".equals(page)){
