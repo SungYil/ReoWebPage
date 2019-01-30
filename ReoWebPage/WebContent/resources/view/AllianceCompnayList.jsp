@@ -16,9 +16,19 @@
 <meta charset="UTF-8">
 <title>제휴 업체 등록</title>
 <style>
-	.hide{
-		display:none;
-	}
+a{
+	color:black;
+}
+.myList{
+	list-style:none;
+}
+.subList{
+	list-style:none;
+	text-align:center;
+}
+.subList li:before{
+	content: ">";
+}
 </style>
 </head>
 <body>
@@ -26,17 +36,18 @@
 	<div id="contents">	
 		<div id="nav">
 			<div id="navTitle">관리</div>
-			<div class="list-group">
-			  <a href="#" class="list-group-item">제휴문의 관리</a>
-			  <div class="list-group hide">
-			  	<a href="#" class="list-group-item">제휴업체 목록</a>
-			  	<a href="#" class="list-group-item">제휴문의 내역</a>
-			  </div>
-			  <a href="#" class="list-group-item">아르바이트 지원 확인</a>
-			  <a href="#" class="list-group-item">회원 관리</a>
-			  <a href="#" class="list-group-item">근무지 관리</a>
-			  <a href="#" class="list-group-item">관리자 정보 관리</a>
-			</div>	
+			<ul class="list-group">
+				<li class="list-group-item">
+					<a href="#">제휴문의 관리</a>
+					<ul class="subList">
+						<li><a href="#">제휴업체 목록</a></li>
+						<li><a href="#">제휴문의 내역</a></li>
+					</ul>
+				</li>
+				<li class="list-group-item"><a href="#">회원관리</a></li>
+				<li class="list-group-item"><a href="#">관리자 정보 관리</a></li>
+				<li class="list-group-item"><a href="#">아르바이트 관리</a></li>
+			</ul>
 		</div>	
 		<div id="section">
 			<div id="sectionHead">
@@ -77,11 +88,9 @@
 	</footer>
 	
 	<script>
-		$(document).ready(function(){
-			$(".list-group").click(function(){
-				$(this).next("ul").toggleClass("hide");
-			});
-		});
+		document.querySelector().onclick-function(){
+			
+		};
 	</script>
 </body>
 </html>

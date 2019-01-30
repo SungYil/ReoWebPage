@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/header.css">
+
 <title>Insert title here</title>
 </head>
 <body>
@@ -38,5 +39,8 @@
 			<li><a href="#">로그인</a></li>
 		</ul>
 	</div>
+	
+	<script charset="utf-8" type="text/javascript" src="../script/HeaderMenu.js"></script>
+	
 </body>
 </html>

@@ -3,20 +3,26 @@
 	display : flex;
 	/* 위치 지정하려면 당연히 flex */
 	justify-content : center;
+	width : 760px;
+	margin: auto;
 }
 #loginForm{
 	display : flex;
 	/* 위치 지정하려면 당연히 flex */
 	justify-content : center;
 	background-color: gray;
-	margin : 30px;
+	margin-top : 30px;
+	padding : 20px;
 	width : 760px;
 	height : 200px;
 }
-#inputForm{
+#inputBlock{
 	width : 500px;
 }
 label{
 	font-weight : bolder;
 	width : 100px;
+}
+button{
+	hegiht : 100%;
 }

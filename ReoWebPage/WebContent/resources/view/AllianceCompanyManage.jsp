@@ -60,7 +60,16 @@
 			</div>
 		</div>
 	</div>
-	
+	<script>
+	console.log('temp');
+	var list=document.querySelectorAll('td');
+	for(var i=0;i<list.length;++i){
+		console.log(list.item(i));
+		list[i].onclick=function(){
+			console.log(this.innerHTML);
+		};
+	}
+	</script>
 	<footer>
 		<jsp:include page="Footer.jsp"></jsp:include>
 	</footer>

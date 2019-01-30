@@ -10,33 +10,35 @@
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css?ver=1">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/button_group.css?ver=1">
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/login.css?ver=1">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/login.css?ver=1.2">
 <meta charset="UTF-8">
 <title>제휴문의 정보 페이지</title>
 </head>
 <body>
 	<jsp:include page="Header.jsp"></jsp:include>
-	<div id="contents">
-		
+		<div id="contents">
+			<div>
 			<form id="loginForm">
-				<div id="inputForm">
-					<div class="form-group row">
+				<div id="inputBlock">
+					<div>
 						<label for="id">아이디</label>
-						<div>
-							<input type="text" value="원래 아이디" id="id"/>
-						</div>
+						<input type="text" value="원래 아이디" id="id"/>
 					</div>
-					<div class="form-group row">
+					<div>
 						<label for="pwd">비밀번호</label>
-						<div>
-							<input type="password" class="form-control" value="원래 비밀번호" id="pwd"/>
-						</div>
+						<input type="password" value="원래 비밀번호" id="pwd"/>
 					</div>
 				</div>
 				<div>
 					<button type="submit" class="btn btn-primary">로그인</button>
 				</div>
 			</form>
+			<div>
+				<a href="${pageContext.request.contextPath}/registerPage">회원가입</a>
+				<a href="${pageContext.request.contextPath}/loginPage">아이디 찾기</a>
+				<a href="#">비밀번호 재설정</a>
+			</div>
+		</div>
 		
 	</div>
 
