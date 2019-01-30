@@ -27,7 +27,7 @@
 		<div id="section">
 			<!-- 단기와 장기는 서버로부터 데이터를 받아와서 해결할 것 -->
 			<div id="sectionHead">
-				<h3>단기 아르바이트</h3>
+				<h3><%= request.getAttribute("sectionHead") %></h3>
 			</div>
 			
 			<div id="sectionBody">
@@ -50,9 +50,15 @@
   				<tbody>
     				<tr>
       					<th scope="row">1</th>
-      					<td>Mark</td>
-      					<td>Otto</td>
-      					<td>@mdo</td>
+      					<td>청담역 ?출구</td>
+      					<td>홀 서빙, 매니저</td>
+      					<td>10:30~22:00</td>
+      					<td>20</td>
+      					<td>남여</td>
+      					<td>8500</td>
+      					<td>모집중</td>
+      					<td>신청버튼</td>
+      					<td>체크박스</td>
     				</tr>
     				
     				

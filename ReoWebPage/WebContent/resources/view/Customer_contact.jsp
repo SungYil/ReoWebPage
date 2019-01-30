@@ -23,16 +23,16 @@
   				<a href="#" class="list-group-item list-group-item-action">공지사항</a>
   				<a href="#" class="list-group-item list-group-item-action">Q n A</a>
   				<a href="#" class="list-group-item list-group-item-action">다운로드</a>
-  				<a href="#" class="list-group-item list-group-item-action">제휴문의</a>
+  				<a href="#" class="list-group-item list-group-item-action">제휴 문의</a>
 			</div>
 		</div>
 		<div id="section">
 			<div id="sectionHead">
-				<h3>제휴문의</h3>
+				<h3>제휴 문의</h3>
 			</div>
 			
 			<div id="sectionBody">
-			<form>
+			<form style="border:1px solid #d1d8de">
   				<div class="form-group row">
     				<label for="companyName" class="col-sm-2 col-form-label">회사명</label>
     				<div class="col-sm-10">

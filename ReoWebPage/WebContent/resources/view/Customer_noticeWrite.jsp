@@ -23,12 +23,12 @@
   				<a href="#" class="list-group-item list-group-item-action">공지사항</a>
   				<a href="#" class="list-group-item list-group-item-action">Q n A</a>
   				<a href="#" class="list-group-item list-group-item-action">다운로드</a>
-  				<a href="#" class="list-group-item list-group-item-action">제휴문의</a>
+  				<a href="#" class="list-group-item list-group-item-action">제휴 문의</a>
 			</div>
 		</div>
 		<div id="section">
 			<div id="sectionHead">
-				<h3>공지사항</h3>
+				<h3><% request.getAttribute("sectionHead"); %></h3>
 			</div>
 			
 			<div id="sectionBody">

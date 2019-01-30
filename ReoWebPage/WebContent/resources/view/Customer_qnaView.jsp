@@ -22,7 +22,7 @@
   				<a href="#" class="list-group-item list-group-item-action">공지사항</a>
   				<a href="#" class="list-group-item list-group-item-action">Q n A</a>
   				<a href="#" class="list-group-item list-group-item-action">다운로드</a>
-  				<a href="#" class="list-group-item list-group-item-action">제휴문의</a>
+  				<a href="#" class="list-group-item list-group-item-action">제휴 문의</a>
 			</div>
 		</div>
 		<div id="section">
