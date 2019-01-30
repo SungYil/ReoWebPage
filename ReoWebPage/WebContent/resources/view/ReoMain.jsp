@@ -14,7 +14,7 @@
 <title>Reo에 오신걸 환영합니다</title>
 </head>
 <body>
-	<jsp:include page="Header.jsp"/>
+	<jsp:include page="Header.jsp" flush="true"/>
 	
 	<!--============================== 슬라이드 쇼 코드 시작 ==================================-->
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
