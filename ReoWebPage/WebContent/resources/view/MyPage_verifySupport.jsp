@@ -10,6 +10,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/button_group.css">
 <title>MyPage VerifySupport page</title>
 </head>
 <body>
@@ -30,7 +31,7 @@
 		<div id="section">
 			<!-- 단기와 장기는 서버로부터 데이터를 받아와서 해결할 것 -->
 			<div id="sectionHead">
-				<h3>근무 내역</h3>
+				<h3>아르바이트 지원 확인</h3>
 			</div>
 			
 			<div id="sectionBody">
@@ -49,9 +50,12 @@
   				<tbody>
     				<tr>
       					<th scope="row">1</th>
-      					<td>Mark</td>
-      					<td>Otto</td>
-      					<td>@mdo</td>
+      					<td>2019.2.2</td>
+      					<td>청담역?출구</td>
+      					<td>홀 서빙</td>
+      					<td>10:30~22:00</td>
+      					<td>남자</td>
+      					<td>8000</td>
     				</tr>
     				
     				
