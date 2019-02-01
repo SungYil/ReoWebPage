@@ -16,6 +16,7 @@ public class MenuController {
 			moving="ReoMain";
 			//아직 회사 소개페이지를 안만들었다 ....
 		}else if("채용 정보".equals(page)){
+			model.addAttribute("sectionHead", "단기 아르바이트");
 			moving="PartTime_parttimeList";
 		}else if("단기 아르바이트".equals(page)){//파트 타임 리스트의 경우 단기와 장기 나누는 방법 생각할것.
 			model.addAttribute("sectionHead", "단기 아르바이트");

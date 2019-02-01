@@ -5,7 +5,13 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>ReoWebpage</name>
-  
+  <properties>
+    <maven.tomcat.port>8089</maven.tomcat.port>
+        <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+    </properties>
+    
+
   <dependencies>
 	<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
 	<dependency>
@@ -47,9 +53,29 @@
 	    <version>8.0.13</version>
 	</dependency>
 	
+	
+	
+	
 </dependencies>
   <build>
     <plugins>
+    <!--================================= 톰캣 배포 플러그인 시작 =======================-->
+	
+ 
+    <!-- <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+            <artifactId>tomcat7-maven-plugin</artifactId>
+            <version>2.2</version>
+        <configuration>
+            <url>http://localhost:8089/manager/text</url>
+            <server>TomcatServer</server>
+            <path>/ReoWebPage</path>
+            <username>admin</username>
+            <password>1111</password>
+        </configuration>
+    </plugin> -->
+	<!--============================= 톰캣 배포 플러그인 끝 =========================-->
+	
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.5.1</version>
@@ -58,6 +84,7 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+      
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.0.0</version>
