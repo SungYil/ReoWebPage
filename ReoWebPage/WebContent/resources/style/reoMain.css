@@ -19,13 +19,12 @@
 	margin-right:150px;
 }
 .card-deck{
-	
-	max-width:1200px;
+	width:1200px;
+	/* max-width:1200px; */
 	padding:0px;
 }
 .card{
 	background-color: rgba(245, 245, 245, 0.4) !important;
-	max-width:300px;
 }
 .carousel-item {
   height: 65vh;
