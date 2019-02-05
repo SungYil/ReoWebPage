@@ -17,6 +17,7 @@ body{
 	margin-right:40vw;
 }
 .menubar ul{
+	overflow:hidden;
 background: rgb(109,109,109);
 height:89px;
 list-style:none;
