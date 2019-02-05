@@ -1,0 +1,8 @@
+@charset "UTF-8";
+#contents{
+	display : flex;
+	/* 위치 지정하려면 당연히 flex */
+	justify-content : center;
+	width : 760px;
+	margin: auto;
+}

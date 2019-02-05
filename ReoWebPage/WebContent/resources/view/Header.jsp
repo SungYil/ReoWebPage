@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/header.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/header.css?ver=1">
 
 <title>Insert title here</title>
 </head>
@@ -31,8 +31,9 @@
 			<li><a href="#">내 정보</a></li>
 			<li><a href="#">관리</a>
 				<ul>
-					<li><a href="#">제휴문의 관리</a></li>
-					<li><a href="#">회원 관리</a></li>
+					<li><a href="#">제휴업체 목록</a></li>
+					<li><a href="#">제휴문의 내역</a></li>
+					<li><a href="#">회원관리</a></li>
 					<li><a href="#">관리자 정보 관리</a></li>
 					<li><a href="#">아르바이트 관리</a></li>
 				</ul>

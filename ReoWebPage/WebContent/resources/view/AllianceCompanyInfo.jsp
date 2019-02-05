@@ -11,25 +11,25 @@
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css?ver=1">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/button_group.css?ver=1">
 <meta charset="UTF-8">
-<title>제휴업체 정보 페이지</title>
+<title>제휴업체 정보</title>
 </head>
 <body>
 	<jsp:include page="Header.jsp"></jsp:include>
 	<div id="contents">	
 		<div id="nav">
 			<div id="navTitle">관리</div>
-			<div class="list-group">
-			  <a href="#" class="list-group-item">제휴문의 관리</a>
-			  <a href="#" class="list-group-item">아르바이트 지원 확인</a>
-			  <a href="#" class="list-group-item">회원 관리</a>
-			  <a href="#" class="list-group-item">근무지 관리</a>
-			  <a href="#" class="list-group-item">관리자 정보 관리</a>
-			</div>	
+			<ul class="list-group">
+				<li class="list-group-item"><a href="#">제휴업체 목록</a></li>
+				<li class="list-group-item"><a href="#">제휴문의 내역</a></li>
+				<li class="list-group-item"><a href="#">회원관리</a></li>
+				<li class="list-group-item"><a href="#">관리자 정보 관리</a></li>
+				<li class="list-group-item"><a href="#">아르바이트 관리</a></li>
+			</ul>	
 		</div>	
 		<div id="section">
 			<div id="sectionHead">
 				<img class="title_img" alt="#" src="${pageContext.request.contextPath}/resources/image/test.jpg"/>
-				<h1>제휴업체 정보</h1>
+				제휴업체 정보
 			</div>
 			<div id="sectionBody">
 				<table class="table">
