@@ -42,9 +42,9 @@ public class MenuController {
 		}else if("지원 확인".equals(page)){
 			moving="MyPage_verifySupport";
 		}else if("관리".equals(page)){
-			moving="AllianceCompnayList";
+			moving="AllianceCompanyList";
 		}else if("제휴업체 목록".equals(page)){
-			moving="AllianceCompnayList";
+			moving="AllianceCompanyList";
 		}else if("제휴문의 내역".equals(page)){
 			moving="AllianceCompanyRequestList";
 		}else if("회원관리".equals(page)){
