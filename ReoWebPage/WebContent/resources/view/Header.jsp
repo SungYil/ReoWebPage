@@ -12,7 +12,7 @@
 <body>
 	<div class="menubar">
 		<ul>
-			<li id="icon"><img src="http://placehold.it/214x89" /></li>
+			<li id="icon"><img src="${pageContext.request.contextPath}/resources/image/logo.jpg" /></li>
 			<li><a href="#">회사 소개</a></li>
 			<li><a href="#">채용 정보</a>
 				<ul>

@@ -11,6 +11,7 @@
 
 <%-- <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/totalStyle.css"> --%>
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/reoMain.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/buttonStyle.css">
 <title>Reo에 오신걸 환영합니다</title>
 </head>
 <body>
@@ -68,7 +69,7 @@
     			<div class="card-body">
       				<h4 class="card-title">협력 업체 신청</h4>
       				<p class="card-text">레오와 함께 일해요!!</p>
-      				<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      				<button class="btn-5">바로가기 ></button>
     			</div>
   			</div>
   			<div class="card">
@@ -77,7 +78,7 @@
    				<div class="card-body">
       				<h4 class="card-title">채용 공고</h4>
       				<p class="card-text">현재 진행 중인 채용 공고를 확인해보세요!</p>
-      				<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      				<button class="btn-5">바로가기 ></button>
     			</div>
   			</div>
   			<div class="card">
@@ -85,7 +86,7 @@
     			<div class="card-body">
       				<h4 class="card-title">공지 사항</h4>
       				<p class="card-text">공지사항을 확인하세요!</p>
-      				<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      				<button class="btn-5">바로가기 ></button>
     			</div>
   			</div>
   			<div class="card">
@@ -93,7 +94,7 @@
     			<div class="card-body">
       				<h4 class="card-title">자주 묻는 질문</h4>
       				<p class="card-text">지원 전 아르바이트에 관한 질문사항을 확인하세요!!!</p>
-      				<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      				<button class="btn-5">바로가기 ></button>
     			</div>
   			</div>
 		</div>
